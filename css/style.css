@@ -1,0 +1,12 @@
+.logo{
+	width: 400px;
+	height:150px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navigation{
+	list-style: none;
+	display: inline;
+}
