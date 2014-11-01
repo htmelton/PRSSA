@@ -1,0 +1,19 @@
+.container-fluid {
+    background-color: #44146B;
+    
+}
+
+.logo{
+	width: 100px;
+	height: 50px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+    padding: 3px;
+}
+
+.faq {
+    color: #44146B;
+    font-weight: bold;
+    font-size: 48px;
+}
