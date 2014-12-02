@@ -1,19 +1,102 @@
-.container-fluid {
-    background-color: #44146B;
-    
+html, body{
+  height: 100%;
+  padding-top: 100px;
+}
+
+/* header CSS*/
+.navbar-default{
+
+    background: rgba(68,20,107, 0.5);
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: white;
+   font-size: 25px;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+   color: #FF6699;
+}
+
+.opacity{
+
+  opacity: 1;
 }
 
 .logo{
-	width: 100px;
-	height: 50px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-    padding: 3px;
+    width: 275px;
+    height: 90px;
+    padding: 5px;
 }
 
-.faq {
-    color: #44146B;
-    font-weight: bold;
-    font-size: 48px;
+.reg_button{
+ 
+    width: 100px;
+    height:25px;
+    .button-variant(#FF9900);
+}
+
+
+/* slideshow css */
+
+.slideshow #image {
+
+    width:auto;
+    height: auto;
+}
+
+/*text css*/
+
+.content{
+    background: rgba(255,255,255, 0.2);
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 3px black;
+
+}
+
+
+/*footer CSS */ 
+
+.site-footer {
+    background: rgba(68,20,107, 0.5);
+    color: white;
+}
+
+/*committee page CSS*/
+
+#comm-content {
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+#comm-content .row .col-md-3 {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#comm-pic {
+	border: 5px solid white;
+	height: 250px;
+	width: 250px;
+    margin-top: 15px;
+}
+
+#name-content {
+	background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin-top: -110px;
+    font-color: #333333;
+    position: relative;
+    height: 90px;
+    width: 250px;
+    padding-left: 5px;
+    line-height: 0.8;
+
+}
+
+#name-content h3{
+    padding-bottom: -5px;
 }
